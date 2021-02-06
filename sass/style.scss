@@ -39,6 +39,36 @@ img.sqa__content-image {
   margin-left: 5px;
 }
 
+.sqa__table {
+  @extend %column;
+  margin: 15px 30px;
+}
+.sqa__table-head {
+  background-image: linear-gradient($topColor, $bottomColor);
+  border-bottom: none;
+  color: #fff;
+}
+.sqa__table-title {
+  color: $navColor;
+  padding: 5px 5px;
+}
+.sqa__table-body {
+  justify-content: center;
+}
+.sqa__viewMore-btn {
+  margin: 0 15px;
+}
+.sqa__btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0 0 10px 0;
+  color: $navColor;
+  &:focus {
+    outline: none;
+  }
+}
+
 @media (max-width: $lg) {
   .sqa__navigation {
     height: 100%;
