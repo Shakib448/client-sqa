@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .sqa__navigation, .sqa__content-area {
   background-color: #fff;
   -webkit-box-shadow: 5px 5px 10px lightgray;
           box-shadow: 5px 5px 10px lightgray;
   border-radius: 10px;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -29,7 +31,7 @@ img.sqa__content-image {
 
 .sqa__content-area {
   color: #2db159 !important;
-  width: 420px;
+  width: 415px;
   margin: 15px 15px;
 }
 
@@ -48,6 +50,17 @@ img.sqa__content-image {
   }
   .sqa__navigation-logo {
     width: 100px !important;
+  }
+}
+
+.sqa__main-content {
+  font-size: medium;
+}
+
+@media (max-width: 576px) {
+  .sqa__main-content {
+    padding: 0 20px;
+    font-size: medium;
   }
 }
 /*# sourceMappingURL=style.css.map */
