@@ -1,0 +1,21 @@
+body {
+  background-color: #f3fbf7;
+}
+
+.sqa__navigation {
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 10px lightgray;
+          box-shadow: 5px 5px 10px lightgray;
+  border-radius: 5px;
+  padding: 0;
+  height: 80px;
+}
+
+.sqa__navigation-item {
+  color: #2db159 !important;
+}
+
+.sqa__navigation-item-span {
+  margin-left: 5px;
+}
+/*# sourceMappingURL=style.css.map */
