@@ -5,11 +5,11 @@
           box-shadow: 5px 5px 10px lightgray;
   border-radius: 10px;
   padding: 0;
-  font-family: "Poppins", sans-serif;
 }
 
 body {
   background-color: #f3fbf7;
+  font-family: "Poppins", sans-serif;
 }
 
 .sqa__navigation {
