@@ -44,7 +44,13 @@ img.sqa__content-image {
   margin: 15px 30px;
 }
 .sqa__table-head {
-  background-image: linear-gradient($bottomColor, $topColor);
+  background-image: linear-gradient($topColor, $bottomColor);
+  border-bottom: none;
+  color: #fff;
+}
+.sqa__table-title {
+  color: $navColor;
+  padding: 5px 5px;
 }
 
 @media (max-width: $lg) {

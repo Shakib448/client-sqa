@@ -48,8 +48,15 @@ img.sqa__content-image {
 }
 
 .sqa__table-head {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#285a44), to(#47a07b));
-  background-image: linear-gradient(#285a44, #47a07b);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#47a07b), to(#285a44));
+  background-image: linear-gradient(#47a07b, #285a44);
+  border-bottom: none;
+  color: #fff;
+}
+
+.sqa__table-title {
+  color: #2db159;
+  padding: 5px 5px;
 }
 
 @media (max-width: 992px) {
