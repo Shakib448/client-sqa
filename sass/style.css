@@ -14,4 +14,8 @@ body {
 .sqa__navigation-item {
   color: #2db159 !important;
 }
+
+.sqa__navigation-item-span {
+  margin-left: 5px;
+}
 /*# sourceMappingURL=style.css.map */
