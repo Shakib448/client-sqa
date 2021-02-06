@@ -50,4 +50,15 @@ img.sqa__content-image {
     width: 100px !important;
   }
 }
+
+.sqa__main-content {
+  font-size: medium;
+}
+
+@media (max-width: 576px) {
+  .sqa__main-content {
+    padding: 0 20px;
+    font-size: medium;
+  }
+}
 /*# sourceMappingURL=style.css.map */
