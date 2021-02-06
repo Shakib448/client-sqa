@@ -15,7 +15,11 @@ body {
   @extend %column;
   height: 80px;
 }
-
+.sqa__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .sqa__content-area {
   @extend %column;
   color: $navColor !important;
