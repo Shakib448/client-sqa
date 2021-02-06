@@ -39,6 +39,14 @@ img.sqa__content-image {
   margin-left: 5px;
 }
 
+.sqa__table {
+  @extend %column;
+  margin: 15px 30px;
+}
+.sqa__table-head {
+  background-image: linear-gradient($bottomColor, $topColor);
+}
+
 @media (max-width: $lg) {
   .sqa__navigation {
     height: 100%;

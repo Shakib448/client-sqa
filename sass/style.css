@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-.sqa__navigation, .sqa__content-area {
+.sqa__navigation, .sqa__content-area, .sqa__table {
   background-color: #fff;
   -webkit-box-shadow: 5px 5px 10px lightgray;
           box-shadow: 5px 5px 10px lightgray;
@@ -41,6 +41,15 @@ img.sqa__content-image {
 
 .sqa__navigation-item-span {
   margin-left: 5px;
+}
+
+.sqa__table {
+  margin: 15px 30px;
+}
+
+.sqa__table-head {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#285a44), to(#47a07b));
+  background-image: linear-gradient(#285a44, #47a07b);
 }
 
 @media (max-width: 992px) {
