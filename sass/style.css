@@ -10,4 +10,8 @@ body {
   padding: 0;
   height: 80px;
 }
+
+.sqa__navigation-item {
+  color: #2db159 !important;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,5 @@
+@import "./_variable.scss";
+
 body {
   background-color: #f3fbf7;
 }
@@ -8,4 +10,8 @@ body {
   border-radius: 5px;
   padding: 0;
   height: 80px;
+}
+
+.sqa__navigation-item {
+  color: $navColor !important;
 }
