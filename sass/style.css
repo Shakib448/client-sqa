@@ -1,14 +1,35 @@
-body {
-  background-color: #f3fbf7;
-}
-
-.sqa__navigation {
+.sqa__navigation, .sqa__content-area {
   background-color: #fff;
   -webkit-box-shadow: 5px 5px 10px lightgray;
           box-shadow: 5px 5px 10px lightgray;
   border-radius: 5px;
   padding: 0;
+}
+
+body {
+  background-color: #f3fbf7;
+}
+
+.sqa__navigation {
   height: 80px;
+}
+
+.sqa__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sqa__content-area {
+  color: #2db159 !important;
+  width: 420px;
+  margin: 15px 15px;
 }
 
 .sqa__navigation-item {
@@ -22,8 +43,7 @@ body {
 @media (max-width: 992px) {
   .sqa__navigation {
     height: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
   }
   .sqa__navigation-logo {
     width: 100px !important;

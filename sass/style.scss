@@ -1,15 +1,30 @@
 @import "./_variable.scss";
 
+%column {
+  background-color: #fff;
+  box-shadow: 5px 5px 10px lightgray;
+  border-radius: 5px;
+  padding: 0;
+}
+
 body {
   background-color: #f3fbf7;
 }
 
 .sqa__navigation {
-  background-color: #fff;
-  box-shadow: 5px 5px 10px lightgray;
-  border-radius: 5px;
-  padding: 0;
+  @extend %column;
   height: 80px;
+}
+.sqa__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sqa__content-area {
+  @extend %column;
+  color: $navColor !important;
+  width: 420px;
+  margin: 15px 15px;
 }
 
 .sqa__navigation-item {
@@ -23,8 +38,7 @@ body {
 @media (max-width: $lg) {
   .sqa__navigation {
     height: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
   }
   .sqa__navigation-logo {
     width: 100px !important;
