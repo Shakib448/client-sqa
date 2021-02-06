@@ -19,3 +19,14 @@ body {
 .sqa__navigation-item-span {
   margin-left: 5px;
 }
+
+@media (max-width: $lg) {
+  .sqa__navigation {
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .sqa__navigation-logo {
+    width: 100px !important;
+  }
+}
