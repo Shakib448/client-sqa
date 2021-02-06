@@ -52,6 +52,9 @@ img.sqa__content-image {
   color: $navColor;
   padding: 5px 5px;
 }
+.sqa__table-body {
+  justify-content: center;
+}
 
 @media (max-width: $lg) {
   .sqa__navigation {

@@ -59,6 +59,12 @@ img.sqa__content-image {
   padding: 5px 5px;
 }
 
+.sqa__table-body {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 @media (max-width: 992px) {
   .sqa__navigation {
     height: 100%;
