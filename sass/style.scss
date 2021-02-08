@@ -73,6 +73,53 @@ th {
   width: 100px;
 }
 
+table,
+th,
+td {
+  padding: 10px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+th:nth-child(1) {
+  background-image: linear-gradient($topColor, $bottomColor);
+  color: white;
+  padding-right: 10px;
+}
+th:nth-child(2) {
+  background-image: linear-gradient($topColor, $bottomColor);
+  color: white;
+  text-align: center;
+}
+th:nth-child(3) {
+  background-image: linear-gradient($topColor, $bottomColor);
+  text-align: center;
+
+  color: white;
+}
+th:nth-child(4) {
+  background-image: linear-gradient($topColor, $bottomColor);
+  text-align: center;
+  color: white;
+}
+
+td:nth-child(1) {
+  text-align: left;
+}
+td:nth-child(2) {
+  text-align: center;
+}
+td:nth-child(3) {
+  text-align: center;
+}
+td:nth-child(4) {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
 @media (min-width: $xxl) {
   .sqa__content-area {
     width: 600px !important;
