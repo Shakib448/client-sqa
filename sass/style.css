@@ -31,7 +31,7 @@ img.sqa__content-image {
 
 .sqa__content-area {
   color: #2db159 !important;
-  width: 410px;
+  width: 415px;
   margin: 15px 15px;
 }
 
@@ -84,6 +84,77 @@ img.sqa__content-image {
 
 th {
   width: 100px;
+}
+
+th.sqa__customers {
+  background: none !important;
+  color: #2db159 !important;
+  margin: 0;
+  padding: 0;
+}
+
+.sqa__customer-typo {
+  margin: 0;
+}
+
+table,
+th,
+td {
+  padding: 10px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+th:nth-child(1) {
+  background: transparent;
+}
+
+th:nth-child(1) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#47a07b), to(#285a44));
+  background-image: linear-gradient(#47a07b, #285a44);
+  color: white;
+  padding-right: 10px;
+}
+
+th:nth-child(2) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#47a07b), to(#285a44));
+  background-image: linear-gradient(#47a07b, #285a44);
+  color: white;
+  text-align: center;
+}
+
+th:nth-child(3) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#47a07b), to(#285a44));
+  background-image: linear-gradient(#47a07b, #285a44);
+  text-align: center;
+  color: white;
+}
+
+th:nth-child(4) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#47a07b), to(#285a44));
+  background-image: linear-gradient(#47a07b, #285a44);
+  text-align: center;
+  color: white;
+}
+
+td:nth-child(1) {
+  text-align: left;
+}
+
+td:nth-child(2) {
+  text-align: center;
+}
+
+td:nth-child(3) {
+  text-align: center;
+}
+
+td:nth-child(4) {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 @media (min-width: 1400px) {
