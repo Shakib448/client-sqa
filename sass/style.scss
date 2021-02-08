@@ -73,6 +73,15 @@ th {
   width: 100px;
 }
 
+th.sqa__customers {
+  background: none !important;
+  color: $navColor !important;
+  margin: 0;
+  padding: 0;
+}
+.sqa__customer-typo {
+  margin: 0;
+}
 table,
 th,
 td {
@@ -81,6 +90,9 @@ td {
   border-spacing: 0 10px;
 }
 
+th:nth-child(1) {
+  background: transparent;
+}
 th:nth-child(1) {
   background-image: linear-gradient($topColor, $bottomColor);
   color: white;

@@ -86,12 +86,27 @@ th {
   width: 100px;
 }
 
+th.sqa__customers {
+  background: none !important;
+  color: #2db159 !important;
+  margin: 0;
+  padding: 0;
+}
+
+.sqa__customer-typo {
+  margin: 0;
+}
+
 table,
 th,
 td {
   padding: 10px;
   border-collapse: separate;
   border-spacing: 0 10px;
+}
+
+th:nth-child(1) {
+  background: transparent;
 }
 
 th:nth-child(1) {
