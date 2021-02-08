@@ -22,12 +22,12 @@ body {
 }
 
 img.sqa__content-image {
-  width: 120px;
+  width: 100px;
 }
 .sqa__content-area {
   @extend %column;
   color: $navColor !important;
-  width: 100vh;
+  width: 410px;
   margin: 15px 15px;
 }
 
@@ -71,6 +71,12 @@ img.sqa__content-image {
 }
 th {
   width: 100px;
+}
+
+@media (min-width: $xxl) {
+  .sqa__content-area {
+    width: 600px !important;
+  }
 }
 
 @media (max-width: $lg) {
