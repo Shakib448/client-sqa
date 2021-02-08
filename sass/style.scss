@@ -27,6 +27,7 @@ img.sqa__content-image {
 .sqa__content-area {
   @extend %column;
   color: $navColor !important;
+  width: 106vh;
   margin: 15px 15px;
 }
 
