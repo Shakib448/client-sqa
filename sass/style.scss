@@ -69,15 +69,8 @@ img.sqa__content-image {
     outline: none;
   }
 }
-
-table {
-  border-spacing: 0 15px;
-}
 th {
-  width: 150px;
-}
-td {
-  width: 150px;
+  width: 100px;
 }
 
 @media (max-width: $lg) {
