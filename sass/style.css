@@ -45,6 +45,7 @@ img.sqa__content-image {
 
 .sqa__table {
   margin: 15px 30px;
+  padding: 15px 30px;
 }
 
 .sqa__table-head {
@@ -79,6 +80,18 @@ img.sqa__content-image {
 
 .sqa__btn:focus {
   outline: none;
+}
+
+table {
+  border-spacing: 0 15px;
+}
+
+th {
+  width: 150px;
+}
+
+td {
+  width: 150px;
 }
 
 @media (max-width: 992px) {
