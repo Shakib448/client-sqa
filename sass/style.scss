@@ -69,9 +69,6 @@ img.sqa__content-image {
     outline: none;
   }
 }
-th {
-  width: 100px;
-}
 
 th.sqa__customers {
   background: none !important;
@@ -101,31 +98,31 @@ th:nth-child(1) {
 th:nth-child(2) {
   background-image: linear-gradient($topColor, $bottomColor);
   color: white;
-  // text-align: center;
+  text-align: center;
 }
 th:nth-child(3) {
   background-image: linear-gradient($topColor, $bottomColor);
-  // text-align: center;
+  text-align: center;
   color: white;
 }
 th:nth-child(4) {
   background-image: linear-gradient($topColor, $bottomColor);
-  // text-align: center;
+  text-align: center;
   color: white;
 }
 
-// td:nth-child(1) {
-//   text-align: left;
-// }
-// td:nth-child(2) {
-//   text-align: center;
-// }
-// td:nth-child(3) {
-//   text-align: center;
-// }
-// td:nth-child(4) {
-//   text-align: center;
-// }
+td:nth-child(1) {
+  text-align: left;
+}
+td:nth-child(2) {
+  text-align: center;
+}
+td:nth-child(3) {
+  text-align: center;
+}
+td:nth-child(4) {
+  text-align: center;
+}
 
 tr:nth-child(even) {
   background-color: #dddddd;
