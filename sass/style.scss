@@ -150,6 +150,15 @@ tr:nth-child(even) {
   font-size: medium;
 }
 
+@media (max-width: $md) {
+  table.sqa__table-data {
+    width: 800px;
+  }
+  .sqa__viewMore-btn {
+    width: 800px;
+  }
+}
+
 @media (max-width: $sm) {
   .sqa__main-content {
     padding: 0 20px;
