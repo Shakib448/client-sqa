@@ -93,6 +93,10 @@ th.sqa__customers {
   margin: 0;
 }
 
+table.sqa__table-data {
+  width: 100%;
+}
+
 table,
 th,
 td {
